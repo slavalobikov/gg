@@ -1,0 +1,62 @@
+body {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.popup {
+  max-width: 400px !important;
+}
+
+.card-image {
+  height: 350px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+}
+.grid {
+  margin-top:150px;
+  /*text-align: center;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+.imageS {
+  height: 350px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carta:hover {
+
+}
+
+.sidebar {
+
+  overflow: hidden;
+  /*background-color: #333;*/
+
+  background-color: white;
+  position:fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+ /* width: 100%; !* Full width *!*/
+  /*text-align: center;*/
+  width:88%;
+}
+
+.menu {
+  width:100%;
+}
+
+/*button {
+  color:red;
+  background-color: red;
+}*/
+
+
