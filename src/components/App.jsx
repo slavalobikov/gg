@@ -34,7 +34,7 @@ class App extends Component {
 
        <div class="grid">
          {!isReady
-             ? 'Загрузка...'
+             ? 'Загрузкaа...'
              : books.map((book, i) => <BookCard key={i} {...book}  />)}
 
 
